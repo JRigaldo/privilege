@@ -56,7 +56,7 @@ body#tinymce.wp-editor.content { /* stylelint-disable-line no-duplicate-selector
 
 body#tinymce.wp-editor.content { /* stylelint-disable-line no-duplicate-selectors */
 	background: #f5efe0;
-	color: #000;
+	color: $dark;
 	font-size: 21px;
 	letter-spacing: -0.015em;
 	margin: 0 auto;
@@ -102,7 +102,7 @@ body#tinymce.wp-editor.content samp {
 }
 
 body#tinymce.wp-editor.content pre {
-	border: 1px solid #dcd7ca;
+	border: 1px solid $border;
 	line-height: 1.5;
 	margin: 40px 0;
 	overflow: auto;
@@ -128,7 +128,7 @@ body#tinymce.wp-editor.content img[data-wp-more] {
 
 body#tinymce.wp-editor.content hr {
 	border: none;
-	border-top: 1px solid #dcd7ca;
+	border-top: 1px solid $border;
 	margin: 2em auto;
 	width: 100%;
 }
@@ -136,7 +136,7 @@ body#tinymce.wp-editor.content hr {
 body#tinymce.wp-editor.content hr:not(.is-style-dots) {
 	background: linear-gradient(to left, currentColor calc(50% - 16px), transparent calc(50% - 16px), transparent calc(50% + 16px), currentColor calc(50% + 16px));
 	border: none;
-	color: #6d6d6d;
+	color: $grey;
 	height: 1px;
 	margin: 80px 0;
 	overflow: visible;
@@ -260,7 +260,7 @@ body#tinymce.wp-editor.content blockquote p {
 }
 
 body#tinymce.wp-editor.content cite {
-	color: #6d6d6d;
+	color: $grey;
 	font-size: 16px;
 	font-weight: 500;
 	font-style: normal;
@@ -394,7 +394,7 @@ body#tinymce.wp-editor.content figcaption,
 body#tinymce.wp-editor.content .wp-caption-text,
 body#tinymce.wp-editor.content .wp-caption-dd,
 body#tinymce.wp-editor.content .gallery-caption {
-	color: #6d6d6d;
+	color: $grey;
 	display: block;
 	font-size: 15px;
 	font-weight: 500;
@@ -446,7 +446,7 @@ body#tinymce.wp-editor.content th {
 /* Forms ------------------------------------- */
 
 body#tinymce.wp-editor.content fieldset {
-	border: 2px solid #dcd7ca;
+	border: 2px solid $border;
 	padding: 30px;
 }
 
@@ -465,7 +465,7 @@ body#tinymce.wp-editor.content label {
 
 body#tinymce.wp-editor.content input,
 body#tinymce.wp-editor.content textarea {
-	border-color: #dcd7ca;
+	border-color: $border;
 	color: inherit;
 	font-family: inherit;
 	font-size: inherit;
@@ -521,7 +521,7 @@ body#tinymce.wp-editor.content input[type="submit"] {
 	background: $primary;
 	border: none;
 	border-radius: 0;
-	color: #fff;
+	color: $light;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 17px;
@@ -549,7 +549,7 @@ body#tinymce.wp-editor.content input[type="reset"]:focus,
 body#tinymce.wp-editor.content input[type="reset"]:hover,
 body#tinymce.wp-editor.content input[type="submit"]:focus,
 body#tinymce.wp-editor.content input[type="submit"]:hover {
-	color: #fff;
+	color: $light;
 	text-decoration: underline;
 }
 

@@ -92,7 +92,7 @@ iframe.instagram-media {
 }
 
 .singular .featured-media::before {
-	background: #fff;
+	background: $light;
 	content: "";
 	display: block;
 	position: absolute;

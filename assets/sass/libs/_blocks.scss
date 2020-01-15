@@ -18,34 +18,34 @@
 
 :root .has-accent-background-color {
 	background-color: $primary;
-	color: #fff;
+	color: $light;
 }
 
 :root .has-primary-color {
-	color: #000;
+	color: $dark;
 }
 
 :root .has-primary-background-color {
-	background-color: #000;
+	background-color: $dark;
 	color: #f5efe0;
 }
 
 :root .has-secondary-color {
-	color: #6d6d6d;
+	color: $grey;
 }
 
 :root .has-secondary-background-color {
-	background-color: #6d6d6d;
-	color: #fff;
+	background-color: $grey;
+	color: $light;
 }
 
 :root .has-subtle-background-color {
-	color: #dcd7ca;
+	color: $border;
 }
 
 :root .has-subtle-background-background-color {
-	background-color: #dcd7ca;
-	color: #000;
+	background-color: $border;
+	color: $dark;
 }
 
 :root .has-background-color {
@@ -54,7 +54,7 @@
 
 :root .has-background-background-color {
 	background-color: #f5efe0;
-	color: #000;
+	color: $dark;
 }
 
 
@@ -133,7 +133,7 @@
 .entry-content .wp-block-archives li,
 .entry-content .wp-block-categories li,
 .entry-content .wp-block-latest-posts li {
-	color: #6d6d6d;
+	color: $grey;
 }
 
 .wp-block-archives a,
@@ -164,7 +164,7 @@
 
 .wp-block-latest-comments__comment-date,
 .wp-block-latest-posts__post-date {
-	color: #6d6d6d;
+	color: $grey;
 	font-size: 0.7em;
 	font-weight: 600;
 	letter-spacing: normal;
@@ -176,7 +176,7 @@
 
 .wp-block-embed figcaption,
 .wp-block-image figcaption {
-	color: #6d6d6d;
+	color: $grey;
 	font-size: 1.4rem;
 	margin-bottom: 0;
 	margin-top: 1.5rem;
@@ -379,7 +379,7 @@ figure.wp-block-gallery.alignfull {
 }
 
 .wp-block-pullquote::before {
-	background: #fff;
+	background: $light;
 	border-radius: 50%;
 	color: $primary;
 	content: "”";
@@ -418,7 +418,7 @@ figure.wp-block-gallery.alignfull {
 }
 
 .wp-block-pullquote cite {
-	color: #6d6d6d;
+	color: $grey;
 	font-size: 1.6rem;
 	font-weight: 500;
 	margin-top: 1.2rem;
@@ -524,7 +524,7 @@ hr.wp-block-separator {
 /* Block: Table ------------------------------ */
 
 .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
-	background: #dcd7ca;
+	background: $border;
 }
 
 figure.wp-block-table.is-style-stripes {
@@ -620,7 +620,7 @@ figure.wp-block-table.is-style-stripes {
 /* Block: Widget Latest Posts ---------------- */
 
 .wp-block-latest-posts.is-grid li {
-	border-top: 0.2rem solid #dcd7ca;
+	border-top: 0.2rem solid $border;
 	margin-top: 2rem;
 	padding-top: 1rem;
 }

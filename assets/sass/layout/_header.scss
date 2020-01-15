@@ -5,7 +5,7 @@
 
 
 #site-header {
-	background: #fff;
+	background: $p-dark;
 	position: relative;
 }
 
@@ -56,7 +56,7 @@ body:not(.enable-search-modal) .header-titles-wrapper {
 
 .site-description {
 	margin-top: 1rem;
-	color: #6d6d6d;
+	color: $grey;
 	font-size: 1.8rem;
 	font-weight: 500;
 	display: none;
@@ -96,7 +96,7 @@ body:not(.enable-search-modal) .site-logo img {
 }
 
 .overlay-header .header-inner {
-	color: #fff;
+	color: $light;
 }
 
 .overlay-header .site-description,
@@ -123,7 +123,7 @@ body:not(.enable-search-modal) .site-logo img {
 /* Archive Header ---------------------------- */
 
 .archive-header {
-	background-color: #fff;
+	background-color: $light;
 	padding: 4rem 0;
 }
 
@@ -143,7 +143,7 @@ body:not(.enable-search-modal) .site-logo img {
 }
 
 .singular .entry-header {
-	background-color: #fff;
+	background-color: $light;
 	padding: 4rem 0;
 }
 

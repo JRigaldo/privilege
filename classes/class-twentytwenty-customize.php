@@ -87,7 +87,7 @@ if ( ! class_exists( 'TwentyTwenty_Customize' ) ) {
 			$wp_customize->add_setting(
 				'header_footer_background_color',
 				array(
-					'default'           => '#ffffff',
+					'default'           => '$lightfff',
 					'sanitize_callback' => 'sanitize_hex_color',
 					'transport'         => 'postMessage',
 				)
@@ -154,16 +154,16 @@ if ( ! class_exists( 'TwentyTwenty_Customize' ) ) {
 				array(
 					'default'           => array(
 						'content'       => array(
-							'text'      => '#000000',
+							'text'      => '#000',
 							'accent'    => '$primary',
-							'secondary' => '#6d6d6d',
-							'borders'   => '#dcd7ca',
+							'secondary' => '$grey',
+							'borders'   => '$border',
 						),
 						'header-footer' => array(
-							'text'      => '#000000',
+							'text'      => '#000',
 							'accent'    => '$primary',
-							'secondary' => '#6d6d6d',
-							'borders'   => '#dcd7ca',
+							'secondary' => '$grey',
+							'borders'   => '$border',
 						),
 					),
 					'type'              => 'theme_mod',
@@ -361,7 +361,7 @@ if ( ! class_exists( 'TwentyTwenty_Customize' ) ) {
 			$wp_customize->add_setting(
 				'cover_template_overlay_text_color',
 				array(
-					'default'           => '#ffffff',
+					'default'           => '$lightfff',
 					'sanitize_callback' => 'sanitize_hex_color',
 				)
 			);

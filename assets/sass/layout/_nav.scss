@@ -96,9 +96,9 @@ ul.primary-menu {
 /* SUB MENU */
 
 .primary-menu ul {
-	background: #000;
+	background: $dark;
 	border-radius: 0.4rem;
-	color: #fff;
+	color: $light;
 	font-size: 1.7rem;
 	opacity: 0;
 	padding: 1rem 0;
@@ -136,7 +136,7 @@ ul.primary-menu {
 
 .primary-menu ul::after {
 	border: 0.8rem solid transparent;
-	border-bottom-color: #000;
+	border-bottom-color: $dark;
 	right: 1.8rem;
 }
 
@@ -185,7 +185,7 @@ ul.primary-menu {
 	border-bottom-color: transparent;
 
 	/*rtl:ignore*/
-	border-left-color: #000;
+	border-left-color: $dark;
 	bottom: auto;
 	right: -1.6rem;
 	top: 2rem;

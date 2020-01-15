@@ -5,7 +5,7 @@
 
 .editor-styles-wrapper {
 	background: #f5efe0;
-	color: #000;
+	color: $dark;
 	letter-spacing: -0.015em;
 	-moz-font-smoothing: antialiased;
 	-webkit-font-smoothing: antialiased;
@@ -168,34 +168,34 @@ Inter variable font. Usage:
 
 :root .has-accent-background-color {
 	background-color: $primary;
-	color: #fff;
+	color: $light;
 }
 
 :root .has-primary-color {
-	color: #000;
+	color: $dark;
 }
 
 :root .has-primary-background-color {
-	background-color: #000;
+	background-color: $dark;
 	color: #f5efe0;
 }
 
 :root .has-secondary-color {
-	color: #6d6d6d;
+	color: $grey;
 }
 
 :root .has-secondary-background-color {
-	background-color: #6d6d6d;
-	color: #fff;
+	background-color: $grey;
+	color: $light;
 }
 
 :root .has-subtle-background-color {
-	color: #dcd7ca;
+	color: $border;
 }
 
 :root .has-subtle-background-background-color {
-	background-color: #dcd7ca;
-	color: #000;
+	background-color: $border;
+	color: $dark;
 }
 
 :root .has-background-color {
@@ -204,27 +204,27 @@ Inter variable font. Usage:
 
 :root .has-background-background-color {
 	background-color: #f5efe0;
-	color: #000;
+	color: $dark;
 }
 
 /* GENERAL COLORS */
 
 .has-black-background-color {
-	background-color: #000;
-	color: #fff;
+	background-color: $dark;
+	color: $light;
 }
 
 .has-white-background-color {
-	background-color: #fff;
-	color: #000;
+	background-color: $light;
+	color: $dark;
 }
 
 .has-black-color {
-	color: #000;
+	color: $dark;
 }
 
 .has-white-color {
-	color: #fff;
+	color: $light;
 }
 
 
@@ -329,7 +329,7 @@ Inter variable font. Usage:
 }
 
 .editor-styles-wrapper pre {
-	border-color: #dcd7ca;
+	border-color: $border;
 	border-radius: 0;
 	line-height: 1.5;
 	padding: 1em;
@@ -393,7 +393,7 @@ Inter variable font. Usage:
 }
 
 .editor-styles-wrapper figcaption {
-	color: #6d6d6d;
+	color: $grey;
 	font-size: 15px;
 	font-weight: 500;
 	line-height: 1.2;
@@ -405,7 +405,7 @@ Inter variable font. Usage:
 /* Forms ------------------------------------- */
 
 .editor-styles-wrapper fieldset {
-	border: 2px solid #dcd7ca;
+	border: 2px solid $border;
 	padding: 20px;
 }
 
@@ -443,7 +443,7 @@ Inter variable font. Usage:
 .editor-styles-wrapper ul.wp-block-categories li,
 .editor-styles-wrapper ul.wp-block-latest-posts li,
 .editor-styles-wrapper ul.wp-block-categories__list li {
-	color: #6d6d6d;
+	color: $grey;
 	line-height: 1.476;
 	margin: 5px 0 0 0;
 }
@@ -479,7 +479,7 @@ Inter variable font. Usage:
 
 .editor-styles-wrapper .wp-block-latest-comments time,
 .editor-styles-wrapper .wp-block-latest-posts time {
-	color: #6d6d6d;
+	color: $grey;
 	font-size: 0.7em;
 	font-weight: 600;
 	letter-spacing: normal;
@@ -501,7 +501,7 @@ Inter variable font. Usage:
 
 .editor-styles-wrapper .wp-block-table,
 .editor-styles-wrapper .wp-block-table * {
-	border-color: #dcd7ca;
+	border-color: $border;
 }
 
 .editor-styles-wrapper .wp-block-table tr {
@@ -509,7 +509,7 @@ Inter variable font. Usage:
 }
 
 .editor-styles-wrapper .wp-block-table caption {
-	background: #dcd7ca;
+	background: $border;
 	text-align: center;
 }
 
@@ -551,19 +551,19 @@ Inter variable font. Usage:
 /* STYLE: STRIPES */
 
 .editor-styles-wrapper .wp-block-table.is-style-stripes {
-	border: 1px solid #dcd7ca;
+	border: 1px solid $border;
 }
 
 .editor-styles-wrapper .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
-	background: #dcd7ca;
+	background: $border;
 }
 
 
 /* Block: Separator -------------------------- */
 
 hr.wp-block-separator {
-	border-top: 1px solid #6d6d6d;
-	color: #6d6d6d;
+	border-top: 1px solid $grey;
+	color: $grey;
 	margin: 30px 0;
 }
 
@@ -646,7 +646,7 @@ hr.wp-block-separator.is-style-dots::before {
 .editor-styles-wrapper .wp-block-quote__citation,
 .editor-styles-wrapper .wp-block-quote cite,
 .editor-styles-wrapper .wp-block-quote footer {
-	color: #6d6d6d;
+	color: $grey;
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 1.25;
@@ -688,7 +688,7 @@ hr.wp-block-separator.is-style-dots::before {
 .editor-styles-wrapper .wp-block-code,
 .editor-styles-wrapper .wp-block-preformatted pre,
 .editor-styles-wrapper .wp-block-verse pre {
-	border: 1px solid #dcd7ca;
+	border: 1px solid $border;
 	border-radius: 0;
 	padding: 30px;
 }
@@ -767,7 +767,7 @@ hr.wp-block-separator.is-style-dots::before {
 }
 
 .editor-styles-wrapper .wp-block-pullquote::before {
-	background: #fff;
+	background: $light;
 	border-radius: 50%;
 	color: $primary;
 	content: "”";
@@ -846,7 +846,7 @@ hr.wp-block-separator.is-style-dots::before {
 .editor-styles-wrapper .wp-block-pullquote__citation,
 .editor-styles-wrapper .wp-block-pullquote cite,
 .editor-styles-wrapper .wp-block-pullquote footer {
-	color: #6d6d6d;
+	color: $grey;
 	font-size: 16px;
 	font-weight: 500;
 	margin-top: 12px;
@@ -893,7 +893,7 @@ hr.wp-block-separator.is-style-dots::before {
 .editor-styles-wrapper .wp-block-file__button {
 	background: $primary;
 	border-radius: 0;
-	color: #fff;
+	color: $light;
 	font-size: 15px;
 	font-weight: 600;
 	letter-spacing: 0.0333em;
@@ -989,7 +989,7 @@ hr.wp-block-separator.is-style-dots::before {
 /* STYLE: GRID */
 
 .editor-styles-wrapper .wp-block-latest-posts.is-grid li {
-	border-color: #dcd7ca;
+	border-color: $border;
 }
 
 .editor-styles-wrapper ul.wp-block-latest-posts.is-grid li {

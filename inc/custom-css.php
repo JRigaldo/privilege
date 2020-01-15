@@ -56,21 +56,21 @@ if ( ! function_exists( 'twentytwenty_get_customizer_css' ) ) {
 
 		// Get variables.
 		$body              = sanitize_hex_color( twentytwenty_get_color_for_area( 'content', 'text' ) );
-		$body_default      = '#000000';
+		$body_default      = '#000';
 		$secondary         = sanitize_hex_color( twentytwenty_get_color_for_area( 'content', 'secondary' ) );
-		$secondary_default = '#6d6d6d';
+		$secondary_default = '$grey';
 		$borders           = sanitize_hex_color( twentytwenty_get_color_for_area( 'content', 'borders' ) );
-		$borders_default   = '#dcd7ca';
+		$borders_default   = '$border';
 		$accent            = sanitize_hex_color( twentytwenty_get_color_for_area( 'content', 'accent' ) );
 		$accent_default    = '$primary';
 
 		// Header.
 		$header_footer_background         = sanitize_hex_color( twentytwenty_get_color_for_area( 'header-footer', 'background' ) );
-		$header_footer_background_default = '#ffffff';
+		$header_footer_background_default = '$lightfff';
 
 		// Cover.
 		$cover         = sanitize_hex_color( get_theme_mod( 'cover_template_overlay_text_color' ) );
-		$cover_default = '#ffffff';
+		$cover_default = '$lightfff';
 
 		// Background.
 		$background         = sanitize_hex_color_no_hash( get_theme_mod( 'background_color' ) );

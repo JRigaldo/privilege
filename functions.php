@@ -554,7 +554,7 @@ function twentytwenty_block_editor_settings() {
 
 	// If we have a dark background color then add support for dark editor style.
 	// We can determine if the background color is dark by checking if the text-color is white.
-	if ( '#ffffff' === strtolower( twentytwenty_get_color_for_area( 'content', 'text' ) ) ) {
+	if ( '$lightfff' === strtolower( twentytwenty_get_color_for_area( 'content', 'text' ) ) ) {
 		add_theme_support( 'dark-editor-style' );
 	}
 
@@ -640,16 +640,16 @@ function twentytwenty_get_color_for_area( $area = 'content', $context = 'text' )
 		'accent_accessible_colors',
 		array(
 			'content'       => array(
-				'text'      => '#000000',
+				'text'      => '#000',
 				'accent'    => '$primary',
-				'secondary' => '#6d6d6d',
-				'borders'   => '#dcd7ca',
+				'secondary' => '$grey',
+				'borders'   => '$border',
 			),
 			'header-footer' => array(
-				'text'      => '#000000',
+				'text'      => '#000',
 				'accent'    => '$primary',
-				'secondary' => '#6d6d6d',
-				'borders'   => '#dcd7ca',
+				'secondary' => '$grey',
+				'borders'   => '$border',
 			),
 		)
 	);

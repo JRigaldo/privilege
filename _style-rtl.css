@@ -428,7 +428,7 @@ hr.styled-separator {
 
 .entry-content hr:not(.has-background),
 hr.styled-separator {
-	color: #6d6d6d;
+	color: ;
 }
 
 .entry-content hr::before,
@@ -456,7 +456,7 @@ hr.styled-separator::after {
 }
 
 a {
-	color: $primary;
+	color: #f9a825;
 	text-decoration: underline;
 }
 
@@ -539,7 +539,7 @@ dd + dt {
 /* Quotes ------------------------------------ */
 
 blockquote {
-	border-color: $primary;
+	border-color: #f9a825;
 	border-style: solid;
 	border-width: 0 0 0 0.2rem;
 	color: inherit;
@@ -549,7 +549,7 @@ blockquote {
 }
 
 cite {
-	color: #6d6d6d;
+	color: ;
 	font-size: 1.4rem;
 	font-style: normal;
 	font-weight: 600;
@@ -626,7 +626,7 @@ object {
 
 figcaption,
 .wp-caption-text {
-	color: #6d6d6d;
+	color: ;
 	display: block;
 	font-size: 1.5rem;
 	font-weight: 500;
@@ -703,7 +703,7 @@ input[type="checkbox"] {
 	width: 1.5rem;
 	min-width: 1.5rem;
 	height: 1.5rem;
-	background: #fff;
+	background: #FFF;
 	border-radius: 0;
 	border-style: solid;
 	border-width: 0.1rem;
@@ -777,7 +777,7 @@ input[type="color"],
 textarea {
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	background: #fff;
+	background: #FFF;
 	border-radius: 0;
 	border-style: solid;
 	border-width: 0.1rem;
@@ -830,10 +830,10 @@ input[type="reset"],
 input[type="submit"] {
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	background: $primary;
+	background: #f9a825;
 	border: none;
 	border-radius: 0;
-	color: #fff;
+	color: #FFF;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 1.5rem;
@@ -1086,7 +1086,7 @@ button.toggle {
 .color-accent,
 .color-accent-hover:focus,
 .color-accent-hover:hover {
-	color: $primary;
+	color: #f9a825;
 }
 
 /* BACKGROUND COLOR */
@@ -1094,7 +1094,7 @@ button.toggle {
 .bg-accent,
 .bg-accent-hover:focus,
 .bg-accent-hover:hover {
-	background-color: $primary;
+	background-color: #f9a825;
 }
 
 /* BORDER COLOR */
@@ -1102,14 +1102,14 @@ button.toggle {
 .border-color-accent,
 .border-color-accent-hover:focus,
 .border-color-accent-hover:hover {
-	border-color: $primary;
+	border-color: #f9a825;
 }
 
 /* FILL COLOR */
 
 .fill-children-accent,
 .fill-children-accent * {
-	fill: $primary;
+	fill: #f9a825;
 }
 
 .fill-children-current-color,
@@ -1299,9 +1299,9 @@ ul.social-icons li {
 
 .social-icons a {
 	align-items: center;
-	background: $primary;
+	background: #f9a825;
 	border-radius: 50%;
-	color: #fff;
+	color: #FFF;
 	display: flex;
 	height: 4.4rem;
 	justify-content: center;
@@ -1347,7 +1347,7 @@ ul.social-icons li {
 
 
 #site-header {
-	background: #fff;
+	background: #FFF;
 	position: relative;
 }
 
@@ -1398,7 +1398,7 @@ body:not(.enable-search-modal) .header-titles-wrapper {
 
 .site-description {
 	margin-top: 1rem;
-	color: #6d6d6d;
+	color: ;
 	font-size: 1.8rem;
 	font-weight: 500;
 	display: none;
@@ -1438,7 +1438,7 @@ body:not(.enable-search-modal) .site-logo img {
 }
 
 .overlay-header .header-inner {
-	color: #fff;
+	color: #FFF;
 }
 
 .overlay-header .site-description,
@@ -1504,7 +1504,7 @@ body:not(.enable-search-modal) .site-logo img {
 }
 
 .toggle-inner .toggle-text {
-	color: #6d6d6d;
+	color: ;
 	font-size: 1rem;
 	font-weight: 600;
 	position: absolute;
@@ -1653,7 +1653,7 @@ ul.primary-menu {
 .primary-menu ul {
 	background: #000;
 	border-radius: 0.4rem;
-	color: #fff;
+	color: #FFF;
 	font-size: 1.7rem;
 	opacity: 0;
 	padding: 1rem 0;
@@ -1787,7 +1787,7 @@ body.touch-enabled .primary-menu ul li.menu-item-has-children > a {
 
 
 .menu-modal {
-	background: #fff;
+	background: #FFF;
 	display: none;
 	opacity: 0;
 	overflow-y: auto;
@@ -1824,7 +1824,7 @@ body.touch-enabled .primary-menu ul li.menu-item-has-children > a {
 }
 
 .menu-modal-inner {
-	background: #fff;
+	background: #FFF;
 	display: flex;
 	justify-content: stretch;
 	overflow: auto;
@@ -2087,7 +2087,7 @@ button.sub-menu-toggle.active svg {
 }
 
 .search-modal-inner {
-	background: #fff;
+	background: #FFF;
 	transform: translateY(-100%);
 	transition: transform 0.15s linear, box-shadow 0.15s linear;
 }
@@ -2232,7 +2232,7 @@ button.search-untoggle {
 }
 
 .cover-header .entry-header * {
-	color: #fff;
+	color: #FFF;
 }
 
 body.template-cover .entry-header {
@@ -2342,7 +2342,7 @@ body.template-full-width [class*="wp-block"].alignfull:not(.has-background) [cla
 /* Archive Header ---------------------------- */
 
 .archive-header {
-	background-color: #fff;
+	background-color: #FFF;
 	padding: 4rem 0;
 }
 
@@ -2385,7 +2385,7 @@ body:not(.singular) main > article:first-of-type {
 /* Post Header ------------------------------- */
 
 .singular .entry-header {
-	background-color: #fff;
+	background-color: #FFF;
 	padding: 4rem 0;
 }
 
@@ -2456,7 +2456,7 @@ h2.entry-title {
 }
 
 .post-meta {
-	color: #6d6d6d;
+	color: ;
 	display: flex;
 	flex-wrap: wrap;
 	font-size: 1.5rem;
@@ -2555,7 +2555,7 @@ h2.entry-title {
 }
 
 .singular .featured-media::before {
-	background: #fff;
+	background: #FFF;
 	content: "";
 	display: block;
 	position: absolute;
@@ -2720,12 +2720,12 @@ h2.entry-title {
 /* CUSTOM COLORS */
 
 :root .has-accent-color {
-	color: $primary;
+	color: #f9a825;
 }
 
 :root .has-accent-background-color {
-	background-color: $primary;
-	color: #fff;
+	background-color: #f9a825;
+	color: #FFF;
 }
 
 :root .has-primary-color {
@@ -2738,12 +2738,12 @@ h2.entry-title {
 }
 
 :root .has-secondary-color {
-	color: #6d6d6d;
+	color: ;
 }
 
 :root .has-secondary-background-color {
-	background-color: #6d6d6d;
-	color: #fff;
+	background-color: ;
+	color: #FFF;
 }
 
 :root .has-subtle-background-color {
@@ -2780,7 +2780,7 @@ h2.entry-title {
 }
 
 .has-drop-cap:not(:focus)::first-letter {
-	color: $primary;
+	color: #f9a825;
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 5.1em;
 	font-weight: 800;
@@ -2937,7 +2937,7 @@ h2.entry-title {
 .entry-content .wp-block-archives li,
 .entry-content .wp-block-categories li,
 .entry-content .wp-block-latest-posts li {
-	color: #6d6d6d;
+	color: ;
 }
 
 .wp-block-archives a,
@@ -2968,7 +2968,7 @@ h2.entry-title {
 
 .wp-block-latest-comments__comment-date,
 .wp-block-latest-posts__post-date {
-	color: #6d6d6d;
+	color: ;
 	font-size: 0.7em;
 	font-weight: 600;
 	letter-spacing: normal;
@@ -2980,7 +2980,7 @@ h2.entry-title {
 
 .wp-block-embed figcaption,
 .wp-block-image figcaption {
-	color: #6d6d6d;
+	color: ;
 	font-size: 1.4rem;
 	margin-bottom: 0;
 	margin-top: 1.5rem;
@@ -2999,7 +2999,7 @@ h2.entry-title {
 }
 
 .wp-block-button.is-style-outline {
-	color: $primary;
+	color: #f9a825;
 }
 
 .is-style-outline .wp-block-button__link:not(.has-text-color) {
@@ -3183,9 +3183,9 @@ figure.wp-block-gallery.alignfull {
 }
 
 .wp-block-pullquote::before {
-	background: #fff;
+	background: #FFF;
 	border-radius: 50%;
-	color: $primary;
+	color: #f9a825;
 	content: "”";
 	display: block;
 	font-size: 6.2rem;
@@ -3222,7 +3222,7 @@ figure.wp-block-gallery.alignfull {
 }
 
 .wp-block-pullquote cite {
-	color: #6d6d6d;
+	color: ;
 	font-size: 1.6rem;
 	font-weight: 500;
 	margin-top: 1.2rem;
@@ -3720,7 +3720,7 @@ div.comment:first-of-type {
 }
 
 .comment-metadata {
-	color: #6d6d6d;
+	color: ;
 	font-size: 1.4rem;
 	font-weight: 500;
 	margin-top: 0.6rem;
@@ -3770,8 +3770,8 @@ div.comment:first-of-type {
 }
 
 .comment-reply-link {
-	background-color: $primary;
-	color: #fff;
+	background-color: #f9a825;
+	color: #FFF;
 	display: block;
 	padding: 0.7rem;
 }
@@ -3847,7 +3847,7 @@ div.comment:first-of-type {
 
 .comment-respond .comment-notes,
 .comment-respond .logged-in-as {
-	color: #6d6d6d;
+	color: ;
 	font-size: 1.6rem;
 	line-height: 1.4;
 	margin: -3rem 0 4rem 0;
@@ -3986,7 +3986,7 @@ div.comment:first-of-type {
 
 .pagination .dots {
 	transform: translateY(-0.3em);
-	color: #6d6d6d;
+	color: ;
 }
 
 .nav-short {
@@ -4062,7 +4062,7 @@ div.comment:first-of-type {
 
 .widget .post-date,
 .widget .rss-date {
-	color: #6d6d6d;
+	color: ;
 	display: block;
 	font-size: 0.85em;
 	font-weight: 500;
@@ -4119,7 +4119,7 @@ div.comment:first-of-type {
 .widget_pages li,
 .widget_meta li,
 .widget_nav_menu li {
-	color: #6d6d6d;
+	color: ;
 	margin: 0.3rem 0;
 }
 
@@ -4289,7 +4289,7 @@ div.comment:first-of-type {
 
 .footer-nav-widgets-wrapper,
 #site-footer {
-	background-color: #fff;
+	background-color: #FFF;
 	border-color: #dedfdf;
 	border-style: solid;
 	border-width: 0;
@@ -4368,7 +4368,7 @@ ul.footer-social li {
 }
 
 .footer-social a {
-	background-color: $primary;
+	background-color: #f9a825;
 	height: 3.6rem;
 	width: 3.6rem;
 }
@@ -4415,7 +4415,7 @@ ul.footer-social li {
 
 .powered-by-wordpress,
 .to-the-top {
-	color: #6d6d6d;
+	color: ;
 }
 
 a.to-the-top > * {

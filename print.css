@@ -52,8 +52,8 @@ Andreas Hecht in https://www.jotform.com/blog/css-perfect-print-stylesheet-98272
   /* Fonts */
 
   body {
-    background: #fff !important;
-    color: #000;
+    background: $light !important;
+    color: $dark;
     font: 13pt Georgia, "Times New Roman", Times, serif;
     line-height: 1.3;
   }
@@ -160,6 +160,6 @@ Andreas Hecht in https://www.jotform.com/blog/css-perfect-print-stylesheet-98272
   .entry-content .wp-block-button .wp-block-file__button,
   .entry-content .button {
     background: none;
-    color: #000;
+    color: $dark;
   }
 }

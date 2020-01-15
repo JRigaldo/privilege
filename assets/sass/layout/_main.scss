@@ -19,7 +19,7 @@ body:not(.singular) main > article:first-of-type {
 }
 
 .post-meta {
-	color: #6d6d6d;
+	color: $grey;
 	display: flex;
 	flex-wrap: wrap;
 	font-size: 1.5rem;

@@ -90,7 +90,7 @@ div.comment:first-of-type {
 }
 
 .comment-metadata {
-	color: #6d6d6d;
+	color: $grey;
 	font-size: 1.4rem;
 	font-weight: 500;
 	margin-top: 0.6rem;
@@ -145,7 +145,7 @@ div.comment:first-of-type {
 
 .comment-reply-link {
 	background-color: $primary;
-	color: #fff;
+	color: $light;
 	display: block;
 	padding: 0.7rem;
 }
@@ -221,7 +221,7 @@ div.comment:first-of-type {
 
 .comment-respond .comment-notes,
 .comment-respond .logged-in-as {
-	color: #6d6d6d;
+	color: $grey;
 	font-size: 1.6rem;
 	line-height: 1.4;
 	margin: -3rem 0 4rem 0;
