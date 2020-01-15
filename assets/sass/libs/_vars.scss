@@ -1,0 +1,34 @@
+// Duration
+$transition: 0.15s;
+
+
+// Size.
+$element-height:	3rem;
+$element-margin:	2rem;
+$padding:			2rem;
+$wrapper:			72rem;
+
+
+// Font.
+
+$family:				(NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif);
+$family-heading:		(-apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif);
+$family-variation:      ("Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif);
+$family-fixed:		    ('Courier New', monospace);
+$weight:				300;
+$weight-bold:		    600;
+$weight-heading:		900;
+
+$bg-old: #f5efe0;
+
+// Palette.
+$bg: #FFF;
+$font-primary: #000;
+$font-white: #FFF;
+
+$primary: #f9a825;
+$p-light: #ffd95a;
+$p-dark: #c17900;
+
+$border: #dcd7ca;
+$grey: #6d6d6d;
