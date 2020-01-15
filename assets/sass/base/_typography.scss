@@ -208,7 +208,7 @@ dd + dt {
 /* Quotes ------------------------------------ */
 
 blockquote {
-	border-color: #cd2653;
+	border-color: $primary;
 	border-style: solid;
 
 	/*rtl:ignore*/
@@ -269,6 +269,59 @@ pre {
 pre code {
 	background: transparent;
 	padding: 0;
+}
+
+/* Block Font Families ----------------------- */
+
+.has-drop-cap:not(:focus)::first-letter,
+.entry-content .wp-block-archives,
+.entry-content .wp-block-categories,
+.entry-content .wp-block-cover-image,
+.entry-content .wp-block-latest-comments,
+.entry-content .wp-block-latest-posts,
+.entry-content .wp-block-pullquote,
+.entry-content .wp-block-quote.is-large,
+.entry-content .wp-block-quote.is-style-large {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+@supports ( font-variation-settings: normal ) {
+
+	.has-drop-cap:not(:focus)::first-letter,
+	.entry-content .wp-block-archives,
+	.entry-content .wp-block-categories,
+	.entry-content .wp-block-latest-posts,
+	.entry-content .wp-block-latest-comments,
+	.entry-content .wp-block-cover-image p,
+	.entry-content .wp-block-pullquote {
+		font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	}
+}
+
+/* Block Font Sizes -------------------------- */
+
+.entry-content .has-small-font-size {
+	font-size: 0.842em;
+}
+
+.entry-content .has-normal-font-size,
+.entry-content .has-regular-font-size {
+	font-size: 1em;
+}
+
+.entry-content .has-medium-font-size {
+	font-size: 1.1em;
+	line-height: 1.45;
+}
+
+.entry-content .has-large-font-size {
+	font-size: 1.25em;
+	line-height: 1.4;
+}
+
+.entry-content .has-larger-font-size {
+	font-size: 1.5em;
+	line-height: 1.3;
 }
 
 

@@ -1,3 +1,48 @@
+/* Media ------------------------------------- */
+
+figure {
+	display: block;
+	margin: 0;
+}
+
+iframe {
+	display: block;
+	max-width: 100%;
+}
+
+video {
+	display: block;
+}
+
+svg,
+img,
+embed,
+object {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+figcaption,
+.wp-caption-text {
+	color: $grey;
+	display: block;
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: 1.2;
+	margin-top: 1.5rem;
+}
+
+figcaption a,
+.wp-caption-text a {
+	color: inherit;
+}
+
+blockquote.instagram-media,
+iframe.instagram-media {
+	margin: auto !important;
+}
+
 /* Image Classes ----------------------------- */
 
 .bg-image {
@@ -27,4 +72,50 @@
 .wp-block-image.is-resized {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/* Featured Media ---------------------------- */
+
+.featured-media {
+	margin-top: 5rem;
+	position: relative;
+}
+
+.singular .featured-media {
+	margin-top: 0;
+}
+
+.singular .featured-media-inner {
+	position: relative;
+	left: calc(50% - 50vw);
+	width: 100vw;
+}
+
+.singular .featured-media::before {
+	background: #fff;
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 50%;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.featured-media img {
+	margin: 0 auto;
+}
+
+.featured-media figcaption {
+	margin: 1.5rem auto 0 auto;
+	text-align: center;
+	width: calc(100% - 5rem);
+}
+
+.post-inner {
+	padding-top: 5rem;
+}
+
+.reduced-spacing.missing-post-thumbnail .post-inner {
+	padding-top: 0;
 }

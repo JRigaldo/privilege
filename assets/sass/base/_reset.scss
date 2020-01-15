@@ -108,3 +108,10 @@ body {
 #site-content {
 	overflow: hidden;
 }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}

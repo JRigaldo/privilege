@@ -64,48 +64,22 @@ a:focus {
 	text-decoration: none;
 }
 
-/* Media ------------------------------------- */
+/* -------------------------------------------------------------------------- */
 
-figure {
-	display: block;
-	margin: 0;
+/*	14. Error 404
+/* -------------------------------------------------------------------------- */
+
+
+.error404 #site-content {
+	padding-top: 4rem;
 }
 
-iframe {
-	display: block;
-	max-width: 100%;
+.error404-content {
+	text-align: center;
 }
 
-video {
-	display: block;
-}
-
-svg,
-img,
-embed,
-object {
-	display: block;
-	height: auto;
-	max-width: 100%;
-}
-
-figcaption,
-.wp-caption-text {
-	color: $grey;
-	display: block;
-	font-size: 1.5rem;
-	font-weight: 500;
-	line-height: 1.2;
-	margin-top: 1.5rem;
-}
-
-figcaption a,
-.wp-caption-text a {
-	color: inherit;
-}
-
-blockquote.instagram-media,
-iframe.instagram-media {
-	margin: auto !important;
+.error404 #site-content .search-form {
+	justify-content: center;
+	margin-top: 3rem;
 }
 

@@ -42,6 +42,8 @@ Inter variable font. Usage:
 @import 'libs/functions';
 @import 'libs/mixins';
 @import 'libs/vendor';
+@import 'libs/blocks';
+@import 'libs/media-queries';
 
 
 
@@ -56,28 +58,29 @@ Inter variable font. Usage:
 
 // Component.
 
-// @import 'components/row';
-// @import 'components/box';
-// @import 'components/button';
+@import 'components/row';
+@import 'components/box';
+@import 'components/button';
 @import 'components/form';
 @import 'components/search';
 @import 'components/modal';
-// @import 'components/icon';
-// @import 'components/image';
-// @import 'components/actions';
-// @import 'components/icons';
-// @import 'components/list';
-// @import 'components/section';
-// @import 'components/table';
-// @import 'components/pagination';
-// @import 'components/widgets';
+@import 'components/image';
+@import 'components/actions';
+@import 'components/icons';
+@import 'components/list';
+@import 'components/section';
+@import 'components/table';
+@import 'components/pagination';
+@import 'components/widgets';
+@import 'components/comments';
 
 // // Layout.
 
-// @import 'layout/wrapper';
-// @import 'layout/intro';
-// @import 'layout/header';
-// @import 'layout/nav';
-// @import 'layout/main';
-// @import 'layout/footer';
-// @import 'layout/navPanel';
+@import 'layout/wrapper';
+@import 'layout/intro';
+@import 'layout/header';
+@import 'layout/nav';
+@import 'layout/main';
+@import 'layout/footer';
+@import 'layout/navPanel';
+@import 'layout/author';
