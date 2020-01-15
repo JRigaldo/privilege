@@ -3,7 +3,7 @@
  * Displays the search icon and modal
  *
  * @package WordPress
- * @subpackage Twenty_Twenty
+ * @subpackage club_privilege
  * @since 1.0.0
  */
 

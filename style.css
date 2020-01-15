@@ -3398,6 +3398,7 @@ iframe.instagram-media {
   padding: 0 2rem; }
 
 .header-inner .toggle svg {
+  color: #FFF;
   display: block;
   position: relative;
   z-index: 1; }
@@ -3416,7 +3417,7 @@ iframe.instagram-media {
   overflow: hidden; }
 
 .toggle-inner .toggle-text {
-  color: #6d6d6d;
+  color: #FFF;
   font-size: 1rem;
   font-weight: 600;
   position: absolute;
@@ -4145,7 +4146,7 @@ body:not(.enable-search-modal) .header-titles-wrapper {
   line-height: 1; }
 
 .site-title a {
-  color: inherit;
+  color: #FFF;
   display: block;
   text-decoration: none; }
 

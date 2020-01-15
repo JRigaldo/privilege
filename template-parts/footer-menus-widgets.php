@@ -4,7 +4,7 @@
  * Visually, this output is presented as part of the footer element.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty
+ * @subpackage club_privilege
  * @since 1.0.0
  */
 

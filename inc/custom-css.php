@@ -1,9 +1,23 @@
 <?php
+
+$bg = '#FFF';
+$dark = '#000';
+$light = '#FFF';
+$white = '#FFF';
+
+$primary = '#f9a825';
+$pLight = '#ffd95a';
+$pDark = '#c17900';
+
+$border = '#dcd7ca';
+$grey = '#6d6d6d';
+
+
 /**
  * Twenty Twenty Custom CSS
  *
  * @package WordPress
- * @subpackage Twenty_Twenty
+ * @subpackage club_privilege
  * @since 1.0.0
  */
 
@@ -56,13 +70,13 @@ if ( ! function_exists( 'twentytwenty_get_customizer_css' ) ) {
 
 		// Get variables.
 		$body              = sanitize_hex_color( twentytwenty_get_color_for_area( 'content', 'text' ) );
-		$body_default      = '#000';
+		$body_default      = $dark;
 		$secondary         = sanitize_hex_color( twentytwenty_get_color_for_area( 'content', 'secondary' ) );
-		$secondary_default = '$grey';
+		$secondary_default = $grey;
 		$borders           = sanitize_hex_color( twentytwenty_get_color_for_area( 'content', 'borders' ) );
-		$borders_default   = '$border';
+		$borders_default   = $border;
 		$accent            = sanitize_hex_color( twentytwenty_get_color_for_area( 'content', 'accent' ) );
-		$accent_default    = '$primary';
+		$accent_default    = $primary;
 
 		// Header.
 		$header_footer_background         = sanitize_hex_color( twentytwenty_get_color_for_area( 'header-footer', 'background' ) );
