@@ -1,14 +1,10 @@
 {
-	"name": "twentytwenty",
+	"name": "club privilege",
 	"version": "1.0.0",
-	"description": "Default WP Theme",
-	"author": "The WordPress Contributors",
-	"license": "GPL-2.0-or-later",
-	"keywords": [
-		"WordPress",
-		"Theme",
-		"TwentyTwenty"
-	],
+	"description": "Default IDmobile",
+	"author": "",
+	"license": "",
+	"keywords": [],
 	"homepage": "https://github.com/wordpress/twentytwenty#readme",
 	"repository": {
 		"type": "git",
@@ -55,5 +51,9 @@
 		"lint:css": "wp-scripts lint-style 'style.css' 'assets/**/*.css'",
 		"lint:js": "wp-scripts lint-js 'assets/**/*.js'",
 		"lint:pkg-json": "wp-scripts lint-pkg-json"
+	},
+	"dependencies": {
+		"bootstrap": "^4.4.1",
+		"bootstrap-grid-only-css": "^4.1.3"
 	}
 }

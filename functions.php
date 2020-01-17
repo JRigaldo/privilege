@@ -181,14 +181,15 @@ function twentytwenty_register_styles() {
 
 	$theme_version = wp_get_theme()->get( 'Version' );
 
-	wp_enqueue_style( 'twentytwenty-style', get_stylesheet_uri(), array(), $theme_version );
-	wp_style_add_data( 'twentytwenty-style', 'rtl', 'replace' );
+	wp_enqueue_style( 'club-privilege', get_stylesheet_uri(), array(), $theme_version );
+
+	wp_style_add_data( 'club-privilege', 'rtl', 'replace' );
 
 	// Add output of Customizer settings as inline style.
-	wp_add_inline_style( 'twentytwenty-style', twentytwenty_get_customizer_css( 'front-end' ) );
+	wp_add_inline_style( 'club-privilege', twentytwenty_get_customizer_css( 'front-end' ) );
 
 	// Add print CSS.
-	wp_enqueue_style( 'twentytwenty-print-style', get_template_directory_uri() . '/print.css', null, $theme_version, 'print' );
+	wp_enqueue_style( 'club-privilege-print-style', get_template_directory_uri() . '/print.css', null, $theme_version, 'print' );
 
 }
 
