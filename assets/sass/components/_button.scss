@@ -1,22 +1,44 @@
-button.template-toggle{
+button.banner-toggle{
     position: absolute;
     right: 2%;
     bottom: 4%;
+}
+
+button.card-pack-toggle{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+button.banner-toggle,
+button.card-pack-toggle {
     background: $brand-primary !important;
     border-radius: 5px;
     font-size: 0.7em;
+    padding: 0;
+
+    a{
+        color: $white;
+        display: block;
+        width: auto;
+        height: 100%;
+        margin: 0.7em;
+    }
+
+    .toggle-inner{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        height: auto;
+    }
     
     .button-text{
         position: relative;
         top: 3px;
         font-weight: 500;
         text-transform: uppercase;
-        margin: 0 5px;
-    }
-}
-
-@media ( max-width: 660px ) {
-    button.template-toggle{
-        padding: 0.2em;
+        margin-right: 0.8em;
+        text-decoration: none;
     }
 }

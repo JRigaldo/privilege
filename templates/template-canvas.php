@@ -11,20 +11,22 @@ get_header();
 	<section>
 		<figure class="template-image">
 			<div class="banner-image">
-				<img src="<?php the_field('home_page_header_image', 'option'); ?>" alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image">
-				<figcaption class="overlay has-larg-font-size"><?php the_field('home_page_header_text', 'option'); ?></figcaption>
-				<a href="#">
-					<button class="template-toggle">
+				<img src="<?php the_field('header_banner_image', 'option'); ?>" alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image">
+				<figcaption class="overlay has-larg-font-size has-text-align-center"><?php the_field('header_banner_figcaption', 'option'); ?></figcaption>
+				
+					<button class="banner-toggle">
+						<a href="#">
 						<span class="toggle-inner">
 							<span class="button-text">
-								Duels de cuisine
+								<?php  the_field('header_banner_button_text', 'option') ?>
 							</span>
 							<span class="toggle-icon">
 								<?php twentytwenty_the_theme_svg( 'arrow-right' ); ?>
 							</span>
 						</span>
+						</a>
 					</button>
-				</a>
+				
 			</div>
 		</figure>
 
@@ -60,29 +62,53 @@ get_header();
 				</div>
 			</div>
 		</header>
-		<h4 class="inter-section"><?php the_field('home_page_body_intersection_title', 'option');  ?></h4>
 	</section>
-	<section class="section-inner">
-		<div class="row">
-			
-			<?php  if(have_rows('home_page_repeater_card_pack', 'option')) : ?>
-			<?php while(have_rows('home_page_repeater_card_pack', 'option')) : the_row() ?>
-			<div class="col-sm-4">
-			<?php $image = get_sub_field('card_pack_image', 'option'); ?>
-				<div class="card">
-					<?php if($image): ?>
-					<img src="<?php echo $image['url'];?>" alt="Avatar" style="width:100%">
+	<section class="block-link">
+		<?php  if(have_rows('home_page_repeater_block_link', 'option')) : ?>
+		<?php while(have_rows('home_page_repeater_block_link', 'option')) : the_row() ?>
+		<figure class="template-image">
+			<?php $image = get_sub_field('banner_image', 'option'); ?>
+			<div class="banner-image">
+				<?php if($image): ?>
+					<img src="<?php echo $image['url'];?>" alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image">
+					<figcaption class="overlay has-larg-font-size has-text-align-left"><?php the_sub_field('banner_figcaption', 'option'); ?></figcaption>
 					<?php endif; ?>
-					<div class="container">
-						<h4><b><?php the_sub_field('card_pack_title', 'option', 'option'); ?></b></h4>
-						<p><?php the_sub_field('card_pack_text', 'option'); ?></p>
-					</div>
-				</div>
+				
+					<button class="banner-toggle">
+						<a href="#">
+						<span class="toggle-inner">
+							<span class="button-text">
+								<?php the_sub_field('banner_button_text', 'option') ?>
+							</span>
+							<span class="toggle-icon">
+								<?php twentytwenty_the_theme_svg( 'arrow-right' ); ?>
+							</span>
+						</span>
+						</a>
+					</button>
+				
 			</div>
-			<?php endwhile; ?>
-			<?php endif; ?>
+		</figure>
+		<div class="container card-pack">
+			<h5><?php the_sub_field('card_pack_title', 'option', 'option'); ?></h5>
+			<p><?php the_sub_field('card_pack_text', 'option'); ?></p>
+			
+				<button class="card-pack-toggle">
+					<a href="#">
+					<span class="toggle-inner">
+						<span class="button-text">
+							<?php  the_sub_field('card_button_text', 'option') ?>
+						</span>
+						<span class="toggle-icon">
+							<?php twentytwenty_the_theme_svg( 'arrow-right' ); ?>
+						</span>
+					</span>
+					</a>
+				</button>
 			
 		</div>
+		<?php endwhile; ?>
+		<?php endif; ?>
 		<!-- Template pills button -->
 		<!-- <div class="row">
 			<article class="col-sm-4">
@@ -97,6 +123,7 @@ get_header();
 			</article>
 		</div> -->
 	</section>
+	<h4 class="inter-section"><?php the_field('home_page_body_intersection_title', 'option');  ?></h4>
 	<div class="section-wrapper">
 		<section class="section-inner">
 			<div class="container-fluid">

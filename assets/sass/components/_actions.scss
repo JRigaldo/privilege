@@ -164,11 +164,15 @@
 
 
 // /* My template icons ----------------------- */
-.template-toggle .toggle-icon svg.svg-icon{
-	position: relative;
-	top: 1px;
-	width: 20px;
-	fill: $white!important;
-	margin-right: 5px;
-}
+.banner-toggle,
+.card-pack-toggle{
+	.toggle-icon svg.svg-icon{
+		position: relative;
+		width: 20px;
+		fill: $white!important;
+		margin-right: 5px;
+	}
+} 
+
+
 

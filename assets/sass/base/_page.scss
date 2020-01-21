@@ -1,85 +1,104 @@
-/* Base Transitions -------------------------- */
-
-a,
-path {
-	transition: all $transition linear;
+.homepage{
+	background-color: $white!important;
 }
 
-/* -------------------------------------------------------------------------- */
-
-/*	2. Element Base
-/* ---------------------------------------------*---------------------------- */
-
-
-main {
-	display: block;
-}
-
-.entry-content hr,
-hr.styled-separator {
-	background: linear-gradient(to left, currentColor calc(50% - 16px), transparent calc(50% - 16px), transparent calc(50% + 16px), currentColor calc(50% + 16px));
-	background-color: transparent !important;
-	border: none;
-	height: 0.1rem;
-	overflow: visible;
+.homepage .card-pack {
+    margin: 0;
 	position: relative;
+    h5 {
+        font-size: 1em;
+        margin: 1rem 0 0.5rem;
+    }
+    p{
+        font-weight: 400;
+        font-size: 0.9em;
+        color: $gray-light;
+    }
+    
 }
 
-.entry-content hr:not(.has-background),
-hr.styled-separator {
-	color: $grey;
-}
+// /* Base Transitions -------------------------- */
 
-.entry-content hr::before,
-.entry-content hr::after,
-hr.styled-separator::before,
-hr.styled-separator::after {
-	background: currentColor;
-	content: "";
-	display: block;
-	height: 1.6rem;
-	position: absolute;
-	top: calc(50% - 0.8rem);
-	transform: rotate(22.5deg);
-	width: 0.1rem;
-}
+// a,
+// path {
+// 	transition: all $transition linear;
+// }
 
-.entry-content hr::before,
-hr.styled-separator::before {
-	left: calc(50% - 0.5rem);
-}
+// /* -------------------------------------------------------------------------- */
 
-.entry-content hr::after,
-hr.styled-separator::after {
-	right: calc(50% - 0.5rem);
-}
-
-a {
-	color: $primary;
-	text-decoration: underline;
-}
-
-a:hover,
-a:focus {
-	text-decoration: none;
-}
-
-/* -------------------------------------------------------------------------- */
-
-/*	14. Error 404
-/* -------------------------------------------------------------------------- */
+// /*	2. Element Base
+// /* ---------------------------------------------*---------------------------- */
 
 
-.error404 #site-content {
-	padding-top: 4rem;
-}
+// main {
+// 	display: block;
+// }
 
-.error404-content {
-	text-align: center;
-}
+// .entry-content hr,
+// hr.styled-separator {
+// 	background: linear-gradient(to left, currentColor calc(50% - 16px), transparent calc(50% - 16px), transparent calc(50% + 16px), currentColor calc(50% + 16px));
+// 	background-color: transparent !important;
+// 	border: none;
+// 	height: 0.1rem;
+// 	overflow: visible;
+// 	position: relative;
+// }
 
-.error404 #site-content .search-form {
-	justify-content: center;
-	margin-top: 3rem;
-}
+// .entry-content hr:not(.has-background),
+// hr.styled-separator {
+// 	color: $grey;
+// }
+
+// .entry-content hr::before,
+// .entry-content hr::after,
+// hr.styled-separator::before,
+// hr.styled-separator::after {
+// 	background: currentColor;
+// 	content: "";
+// 	display: block;
+// 	height: 1.6rem;
+// 	position: absolute;
+// 	top: calc(50% - 0.8rem);
+// 	transform: rotate(22.5deg);
+// 	width: 0.1rem;
+// }
+
+// .entry-content hr::before,
+// hr.styled-separator::before {
+// 	left: calc(50% - 0.5rem);
+// }
+
+// .entry-content hr::after,
+// hr.styled-separator::after {
+// 	right: calc(50% - 0.5rem);
+// }
+
+// a {
+// 	color: $primary;
+// 	text-decoration: underline;
+// }
+
+// a:hover,
+// a:focus {
+// 	text-decoration: none;
+// }
+
+// /* -------------------------------------------------------------------------- */
+
+// /*	14. Error 404
+// /* -------------------------------------------------------------------------- */
+
+
+// .error404 #site-content {
+// 	padding-top: 4rem;
+// }
+
+// .error404-content {
+// 	text-align: center;
+// }
+
+// .error404 #site-content .search-form {
+// 	justify-content: center;
+// 	margin-top: 3rem;
+// }
 

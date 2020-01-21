@@ -8,6 +8,16 @@
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
 }
+
+.block-link{
+	a{
+		cursor: pointer;
+	}
+}
+
+a{
+  text-decoration: none;
+}
   
  
 
