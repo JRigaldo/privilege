@@ -1,162 +1,174 @@
-/* Header Toggles ---------------------------- */
+// /* Header Toggles ---------------------------- */
 
-.header-toggles {
-	display: none;
-}
+// .header-toggles {
+// 	display: none;
+// }
 
-.header-inner .toggle {
-	align-items: center;
-	display: flex;
-	overflow: visible;
-	padding: 0 2rem;
-}
+// .header-inner .toggle {
+// 	align-items: center;
+// 	display: flex;
+// 	overflow: visible;
+// 	padding: 0 2rem;
+// }
 
-.header-inner .toggle svg {
-	color: $gray;
-	display: block;
-	position: relative;
-	z-index: 1;
-}
+// .header-inner .toggle svg {
+// 	color: $gray;
+// 	display: block;
+// 	position: relative;
+// 	z-index: 1;
+// }
 
-.header-inner .toggle path {
-	fill: currentColor;
-}
+// .header-inner .toggle path {
+// 	fill: currentColor;
+// }
 
-.toggle-inner {
-	display: flex;
-	justify-content: center;
-	height: 2.3rem;
-	position: relative;
-}
+// .toggle-inner {
+// 	display: flex;
+// 	justify-content: center;
+// 	height: 2.3rem;
+// 	position: relative;
+// }
 
-.toggle-icon {
-	display: block;
-	overflow: hidden;
-}
+// .toggle-icon {
+// 	display: block;
+// 	overflow: hidden;
+// }
 
 .toggle-inner .toggle-text {
-	color: $gray;
-	font-size: 1rem;
-	font-weight: 300;
-	position: absolute;
-	top: calc(100% + 0.5rem);
-	width: auto;
-	white-space: nowrap;
-	word-break: break-all;
+	color: $gray !important;
+	text-decoration: none !important;
+	&:focus,
+	&:hover
+	{
+		text-decoration: none !important;
+	}
 }
 
-.overlay-header .toggle-text {
-	color: inherit;
-}
+// .overlay-header .toggle-text {
+// 	color: inherit;
+// }
 
-.header-inner .toggle:focus .toggle-text,
-.header-inner .toggle:hover .toggle-text {
-	text-decoration: underline;
-}
+// .header-inner .toggle:focus .toggle-text,
+// .header-inner .toggle:hover .toggle-text {
+// 	text-decoration: underline;
+// }
 
-/* Search Toggle ----------------------------- */
+// /* Search Toggle ----------------------------- */
 
-.search-toggle {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	top: 0;
-}
+// .search-toggle {
+// 	position: absolute;
+// 	bottom: 0;
+// 	left: 0;
+// 	top: 0;
+// }
 
 .search-toggle .toggle-icon,
 .search-toggle svg {
-	height: 2.5rem;
-	max-width: 2.3rem;
-	width: 2.3rem;
+	// height: 2.5rem;
+	// max-width: 2.3rem;
+	// width: 2.3rem;
+	color: $grey !important;
 }
 
-/* Navigation Toggle ------------------------- */
+// /* Navigation Toggle ------------------------- */
 
-.nav-toggle {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	top: 0;
-	width: 6.6rem;
-}
+// .nav-toggle {
+// 	position: absolute;
+// 	bottom: 0;
+// 	right: 0;
+// 	top: 0;
+// 	width: 6.6rem;
+// }
 
 .nav-toggle .toggle-icon,
 .nav-toggle svg {
-	height: 0.8rem;
-	width: 2.6rem;
+	// height: 0.8rem;
+	// width: 2.6rem;
+	color: $grey !important;
 }
 
-.nav-toggle .toggle-inner {
-	padding-top: 0.8rem;
-}
+// .nav-toggle .toggle-inner {
+// 	padding-top: 0.8rem;
+// }
 
-/* Main menu animation ----------------------- */
+// /* Main menu animation ----------------------- */
 
-.menu-wrapper .menu-item {
+// .menu-wrapper .menu-item {
+// 	position: relative;
+// }
+
+// .menu-wrapper .active {
+// 	display: block;
+// }
+
+// .menu-wrapper.is-toggling {
+// 	pointer-events: none;
+// }
+
+// .menu-wrapper.is-toggling .menu-item {
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	margin: 0;
+// 	width: 100%;
+// }
+
+// .menu-wrapper.is-toggling .menu-bottom .social-menu .menu-item {
+// 	width: auto;
+// }
+
+// .menu-wrapper.is-animating .menu-item,
+// .menu-wrapper.is-animating .toggling-target {
+// 	transition-duration: 250ms;
+// }
+
+// .menu-wrapper.is-animating .menu-item {
+// 	transition-property: transform;
+// }
+
+// .menu-wrapper.is-toggling .toggling-target {
+// 	display: block;
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	opacity: 1;
+// }
+
+// .menu-wrapper.is-toggling .toggling-target.active {
+// 	opacity: 0;
+// }
+
+// .menu-wrapper.is-animating.is-toggling .toggling-target {
+// 	display: block;
+// 	transition-property: opacity;
+// 	opacity: 0;
+// }
+
+// .menu-wrapper.is-animating.is-toggling .toggling-target.active {
+// 	opacity: 1;
+// }
+
+// .menu-wrapper.is-toggling .modal-menu > li:last-child li {
+// 	border-top-color: transparent;
+// 	border-bottom-width: 0.1rem;
+// }
+
+// @media (prefers-reduced-motion: reduce) {
+
+// 	.menu-wrapper.is-animating .menu-item,
+// 	.menu-wrapper.is-animating .toggling-target {
+// 		transition-duration: 1ms !important;
+// 	}
+
+// }
+
+
+// /* My template icons ----------------------- */
+.template-toggle .toggle-icon svg.svg-icon{
 	position: relative;
+	top: 1px;
+	width: 20px;
+	fill: $white!important;
+	margin-right: 5px;
 }
 
-.menu-wrapper .active {
-	display: block;
-}
-
-.menu-wrapper.is-toggling {
-	pointer-events: none;
-}
-
-.menu-wrapper.is-toggling .menu-item {
-	position: absolute;
-	top: 0;
-	left: 0;
-	margin: 0;
-	width: 100%;
-}
-
-.menu-wrapper.is-toggling .menu-bottom .social-menu .menu-item {
-	width: auto;
-}
-
-.menu-wrapper.is-animating .menu-item,
-.menu-wrapper.is-animating .toggling-target {
-	transition-duration: 250ms;
-}
-
-.menu-wrapper.is-animating .menu-item {
-	transition-property: transform;
-}
-
-.menu-wrapper.is-toggling .toggling-target {
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	opacity: 1;
-}
-
-.menu-wrapper.is-toggling .toggling-target.active {
-	opacity: 0;
-}
-
-.menu-wrapper.is-animating.is-toggling .toggling-target {
-	display: block;
-	transition-property: opacity;
-	opacity: 0;
-}
-
-.menu-wrapper.is-animating.is-toggling .toggling-target.active {
-	opacity: 1;
-}
-
-.menu-wrapper.is-toggling .modal-menu > li:last-child li {
-	border-top-color: transparent;
-	border-bottom-width: 0.1rem;
-}
-
-@media (prefers-reduced-motion: reduce) {
-
-	.menu-wrapper.is-animating .menu-item,
-	.menu-wrapper.is-animating .toggling-target {
-		transition-duration: 1ms !important;
-	}
-
-}

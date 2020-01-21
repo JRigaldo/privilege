@@ -67,24 +67,24 @@ Inter variable font. Usage:
 
 // Base.
 // @import 'base/access';
-// @import 'base/reset';
+@import 'base/reset';
 // @import 'base/page';
-// @import 'base/typography';
-// @import 'base/helpers';
+@import 'base/typography';
+@import 'base/helpers';
 // @import 'base/opacity';
 
 // // Component.
 
 // @import 'components/row';
 // @import 'components/box';
-// @import 'components/button';
+@import 'components/button';
 // @import 'components/form';
 // @import 'components/search';
 // @import 'components/modal';
-// @import 'components/image';
-// @import 'components/actions';
-// @import 'components/icons';
-// @import 'components/list';
+@import 'components/image';
+@import 'components/actions';
+@import 'components/icons';
+@import 'components/list';
 // @import 'components/section';
 // @import 'components/table';
 // @import 'components/pagination';
@@ -95,7 +95,7 @@ Inter variable font. Usage:
 
 // @import 'layout/wrapper';
 // @import 'layout/intro';
-// @import 'layout/header';
+@import 'layout/header';
 @import 'layout/nav';
 // @import 'layout/main';
 // @import 'layout/footer';

@@ -75,6 +75,16 @@
 	// text-decoration: none;
 }
 
+ul.primary-menu li a{
+	&:hover{
+		color: $grey!important;
+	}
+}
+
+ul.primary-menu li.current_page_item a{
+	color: $grey !important;
+}
+
 .primary-menu a:hover,
 .primary-menu a:focus,
 .primary-menu .current_page_ancestor {
@@ -91,7 +101,7 @@
 .primary-menu li.current-menu-item > a:focus,
 .primary-menu li.current-menu-item > .link-icon-wrapper > a:focus {
 	text-decoration: none;
-	color: red;
+	color: $grey;
 }
 
 // /* SUB MENU */

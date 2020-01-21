@@ -1,0 +1,14 @@
+/* ------------------------------ homepage listn */
+
+
+.list-content{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .list-icon svg.svg-icon {
+        width: 60px;
+        fill: $gray-light;
+    }
+}
