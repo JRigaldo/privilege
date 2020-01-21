@@ -1,3 +1,16 @@
+/*
+	Theme Name: My Twenty Twenty Child Theme
+	Theme URI: https://club-privileges.com
+	Description: A child theme for Twenty Twenty.
+	Author: Jeremy
+	Author URI: https://idmobile.com/
+	Template: twentytwenty
+	Version: 1.0
+	License: GNU General Public License v2 or later
+	License URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
 /* Fonts ------------------------------------- */
 
 /*
@@ -39,55 +52,58 @@ Inter variable font. Usage:
 // @import './style';
 
 @import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/vendor';
-@import 'libs/blocks';
-@import 'libs/media-queries';
+// @import 'libs/functions';
+// @import 'libs/mixins';
+// @import 'libs/vendor';
+// @import 'libs/blocks';
+// @import 'libs/media-queries';
+
+// // Boostrap Grid
+
+@import "../../node_modules/bootstrap-grid-only-css/scss/functions";
+@import "../../node_modules/bootstrap-grid-only-css/scss/variables";
 
 
 
 // Base.
-@import 'base/access';
-@import 'base/reset';
-@import 'base/page';
-@import 'base/typography';
-@import 'base/helpers';
-@import 'base/opacity';
+// @import 'base/access';
+// @import 'base/reset';
+// @import 'base/page';
+// @import 'base/typography';
+// @import 'base/helpers';
+// @import 'base/opacity';
 
-// Component.
+// // Component.
 
-@import 'components/row';
-@import 'components/box';
-@import 'components/button';
-@import 'components/form';
-@import 'components/search';
-@import 'components/modal';
-@import 'components/image';
-@import 'components/actions';
-@import 'components/icons';
-@import 'components/list';
-@import 'components/section';
-@import 'components/table';
-@import 'components/pagination';
-@import 'components/widgets';
-@import 'components/comments';
+// @import 'components/row';
+// @import 'components/box';
+// @import 'components/button';
+// @import 'components/form';
+// @import 'components/search';
+// @import 'components/modal';
+// @import 'components/image';
+// @import 'components/actions';
+// @import 'components/icons';
+// @import 'components/list';
+// @import 'components/section';
+// @import 'components/table';
+// @import 'components/pagination';
+// @import 'components/widgets';
+// @import 'components/comments';
 
-// // Layout.
+// // // Layout.
 
-@import 'layout/wrapper';
-@import 'layout/intro';
-@import 'layout/header';
+// @import 'layout/wrapper';
+// @import 'layout/intro';
+// @import 'layout/header';
 @import 'layout/nav';
-@import 'layout/main';
-@import 'layout/footer';
-@import 'layout/navPanel';
-@import 'layout/author';
+// @import 'layout/main';
+// @import 'layout/footer';
+// @import 'layout/navPanel';
+// @import 'layout/author';
 
-// // Grid
 
-@import "../../node_modules/bootstrap-grid-only-css/scss/functions";
-@import "../../node_modules/bootstrap-grid-only-css/scss/variables";
+// // Boostrap Grid
 
 @import "../../node_modules/bootstrap-grid-only-css/scss/mixins/text-emphasis";
 @import "../../node_modules/bootstrap-grid-only-css/scss/mixins/breakpoints";

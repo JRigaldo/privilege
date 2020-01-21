@@ -12,7 +12,7 @@
 }
 
 .header-inner .toggle svg {
-	color: $white;
+	color: $gray;
 	display: block;
 	position: relative;
 	z-index: 1;
@@ -35,9 +35,9 @@
 }
 
 .toggle-inner .toggle-text {
-	color: $white;
+	color: $gray;
 	font-size: 1rem;
-	font-weight: 600;
+	font-weight: 300;
 	position: absolute;
 	top: calc(100% + 0.5rem);
 	width: auto;

@@ -3,10 +3,10 @@ $transition: 0.15s;
 
 
 // Size.
-$element-height:	3rem;
-$element-margin:	2rem;
-$padding:			2rem;
-$wrapper:			72rem;
+// $element-height:	3rem;
+// $element-margin:	2rem;
+// $padding:			2rem;
+// $wrapper:			72rem;
 
 
 // Font.
@@ -17,14 +17,45 @@ $family-variation:      ("Inter var", -apple-system, BlinkMacSystemFont, "Helvet
 $family-fixed:		    ('Courier New', monospace);
 $weight:				300;
 $weight-bold:		    600;
-$weight-heading:		900;
+$weight-heading:	    900;
 
-// $bg-old: #f5efe0;
+//== Fonts Boostrap
+$font-size-base:        1rem !default;
 
-// Palette.
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+$gray-base:              #000 !default;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:           lighten($gray-base, 98%) !default; // #eee
+
+$brand-primary:         #DE9C12;
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+
+// ** Background color for `<body>`.
+$body-bg:               #fff !default;
+//** Global text color on `<body>`.
+$text-color:            $gray-dark !default;
+
+//** Global textual link color.
+$link-color:            $brand-primary !default;
+//** Link hover color set via `darken()` function.
+$link-hover-color:      darken($link-color, 15%) !default;
+//** Link hover decoration.
+$link-hover-decoration: underline !default;
+
+
 $bg: #FFF;
 $darker: #1B0000;
-$dark: #3D2622;
+$dark: #DE9C12;
+$primary: #DE9C12;
 $light: #DDD7D6;
 $lighter: #DDD7D6;
 $white: #FFFFFF;

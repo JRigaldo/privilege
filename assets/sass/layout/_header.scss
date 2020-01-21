@@ -5,13 +5,13 @@
 
 
 #site-header {
-	background: $darker;
+	background: $gray-lighter;
 	position: relative;
 }
 
 .header-inner {
 	max-width: 168rem;
-	padding: 3.15rem 0;
+	padding: 0.8rem 0;
 	z-index: 100;
 }
 
@@ -44,7 +44,7 @@ body:not(.enable-search-modal) .header-titles-wrapper {
 }
 
 .site-title a {
-	color: $white;
+	color: $brand-primary;
 	display: block;
 	text-decoration: none;
 }
@@ -56,7 +56,7 @@ body:not(.enable-search-modal) .header-titles-wrapper {
 
 .site-description {
 	margin-top: 1rem;
-	color: $grey;
+	color: $brand-primary;
 	font-size: 1.8rem;
 	font-weight: 500;
 	display: none;
