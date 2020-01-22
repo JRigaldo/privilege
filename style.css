@@ -68,19 +68,24 @@ a {
 
 .homepage .card-pack {
   margin: 0;
-  position: relative; }
+  position: relative;
+  padding-bottom: 2.5em; }
   .homepage .card-pack h5 {
     font-size: 1em;
     margin: 1rem 0 0.5rem; }
   .homepage .card-pack p {
     font-weight: 400;
-    font-size: 0.9em;
+    font-size: 0.85em;
     color: #9b9b9b; }
 
 h1,
 .heading-size-1 {
   font-weight: 200;
   font-size: 3rem; }
+
+.homepage h3.heading-size-3 {
+  font-weight: 300;
+  font-size: 2.5rem; }
 
 .homepage h4.heading-size-4 {
   font-size: 0.9em;
@@ -90,8 +95,19 @@ h1,
   margin: 0;
   margin-left: 20px; }
 
+.homepage h5.heading-size-5 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 2em 0 0.5em 0; }
+
 .homepage section {
   padding: 0 !important; }
+
+.button-center {
+  width: 100%; }
+  .button-center button {
+    margin: 2em auto;
+    display: block; }
 
 button.banner-toggle {
   position: absolute;
@@ -100,8 +116,7 @@ button.banner-toggle {
 
 button.card-pack-toggle {
   position: relative;
-  text-align: center;
-  display: inline-block; }
+  text-align: center; }
 
 button.banner-toggle,
 button.card-pack-toggle {
@@ -208,6 +223,27 @@ figure {
   .list-content .list-icon svg.svg-icon {
     width: 60px;
     fill: #9b9b9b; }
+
+.inter-section {
+  background-color: #DE9C12;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 1.5em;
+  padding: 5%;
+  font-weight: 300;
+  letter-spacing: 2px; }
+
+.block-content {
+  background-color: #F8F8F8;
+  color: #555555;
+  margin-top: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+  .block-content h3 {
+    margin-top: 0.5em;
+    font-weight: 300; }
+  .block-content p {
+    font-size: 1.65rem; }
 
 .header-inner {
   padding: 0.8rem 0 !important; }

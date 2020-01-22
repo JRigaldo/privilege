@@ -8,7 +8,22 @@
     letter-spacing: 2px;
 }
 
-.section-wrapper{
-    background-color: $dark;
-    color: $white;
+// .section-wrapper{
+//     background-color: $dark;
+//     color: $white;
+// }
+
+.block-content{
+    background-color: $lighter;
+    color: $gray;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    h3{
+        margin-top: 0.5em;
+        font-weight: 300;
+    }
+    p{
+        font-size: 1.65rem;
+    }
 }

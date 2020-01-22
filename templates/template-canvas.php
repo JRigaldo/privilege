@@ -90,9 +90,10 @@ get_header();
 			</div>
 		</figure>
 		<div class="container card-pack">
-			<h5><?php the_sub_field('card_pack_title', 'option', 'option'); ?></h5>
+			<h5><?php the_sub_field('card_pack_title', 'option'); ?></h5>
 			<p><?php the_sub_field('card_pack_text', 'option'); ?></p>
 			
+			<div class="button-center">
 				<button class="card-pack-toggle">
 					<a href="#">
 					<span class="toggle-inner">
@@ -105,6 +106,7 @@ get_header();
 					</span>
 					</a>
 				</button>
+			</div>
 			
 		</div>
 		<?php endwhile; ?>
@@ -123,7 +125,29 @@ get_header();
 			</article>
 		</div> -->
 	</section>
-	<h4 class="inter-section"><?php the_field('home_page_body_intersection_title', 'option');  ?></h4>
+	<aside class="inter-section container">
+		<h3 class="heading-size-3"><?php the_field('home_page_body_intersection_title', 'option');  ?></h3>
+		<h5 class="heading-size-5"><?php the_field('home_page_body_intersection_text', 'option') ?></h5>
+	</aside>
+	<aside class="container">
+		<div class="block-content">
+			<div class="container">
+				<h3>
+				<?php the_field('block_content_main_title', 'option'); ?>
+				</h3>
+				<?php  if(have_rows('home_page_repeater_block_content', 'option')) : ?>
+				<?php while(have_rows('home_page_repeater_block_content', 'option')) : the_row() ?>
+				<h5 class="heading-size-5">
+					<?php the_sub_field('block_content_sub_title', 'option'); ?>
+				</h5>
+				<p>
+					<?php the_sub_field('block_content_sub_text', 'option'); ?>
+				</p>
+				<?php endwhile; ?>
+				<?php endif; ?>
+			</div>
+		</div>
+	</aside>
 	<div class="section-wrapper">
 		<section class="section-inner">
 			<div class="container-fluid">

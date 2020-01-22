@@ -1,3 +1,11 @@
+.button-center{
+    width: 100%;
+    button{
+        margin: 2em auto;
+        display: block;
+    }
+}
+
 button.banner-toggle{
     position: absolute;
     right: 2%;
@@ -7,7 +15,6 @@ button.banner-toggle{
 button.card-pack-toggle{
     position: relative;
     text-align: center;
-    display: inline-block;
 }
 
 button.banner-toggle,
