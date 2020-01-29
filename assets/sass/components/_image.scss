@@ -139,18 +139,21 @@ figure {
 // 	width: calc(100% - 5rem);
 // }
 
-.template-image figcaption.overlay {
-	position: absolute;
-    top: 0;
-    left: 0;
-	right: 0;
-    padding: 2%;
-	margin: 0;
-    background-color: rgba($gray-lighter, 0.6);
-    color: $gray-base;
-    font-weight: 300;
-    line-height: 1.5em;
-	// font-style: 1em;
+.template-image {
+	position: relative;
+	figcaption.overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		padding: 2%;
+		margin: 0;
+		background-color: rgba($gray-lighter, 0.6);
+		color: $gray-base;
+		font-weight: 300;
+		line-height: 1.5em;
+		// font-style: 1em;
+	}
 }
 
 
