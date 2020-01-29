@@ -33,21 +33,21 @@ Inter variable font. Usage:
 }
 ---------------------------------------------- */
 
-// @font-face {
-// 	font-family: "Inter var";
-// 	font-weight: 100 900; /* stylelint-disable-line font-weight-notation */
-// 	font-style: normal;
-// 	font-display: swap;
-// 	src: url(./assets/fonts/inter/Inter-upright-var.woff2) format("woff2");
-// }
+@font-face {
+	font-family: "Inter var";
+	font-weight: 100 900; /* stylelint-disable-line font-weight-notation */
+	font-style: normal;
+	font-display: swap;
+	src: url(./assets/fonts/inter/Inter-upright-var.woff2) format("woff2");
+}
 
-// @font-face {
-// 	font-family: "Inter var";
-// 	font-weight: 100 900; /* stylelint-disable-line font-weight-notation */
-// 	font-style: italic;
-// 	font-display: swap;
-// 	src: url(./assets/fonts/inter/Inter-italic-var.woff2) format("woff2");
-// }
+@font-face {
+	font-family: "Inter var";
+	font-weight: 100 900; /* stylelint-disable-line font-weight-notation */
+	font-style: italic;
+	font-display: swap;
+	src: url(./assets/fonts/inter/Inter-italic-var.woff2) format("woff2");
+}
 
 
 /******    BOOTSTRAP IMPORTED    ******/
@@ -77,6 +77,7 @@ Inter variable font. Usage:
 
 // // utilities
 @import "bootstrap/utilities/flex";
+@import "bootstrap/utilities/text";
 
 
 /******    All wordpress scss files is customized if it is uncomment    ******/
@@ -87,7 +88,7 @@ Inter variable font. Usage:
 // @import 'libs/functions';
 // @import 'libs/mixins';
 // @import 'libs/vendor';
-// @import 'libs/blocks';
+@import 'libs/blocks';
 // @import 'libs/media-queries';
 
 /*** BASE ***/

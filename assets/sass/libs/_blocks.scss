@@ -664,14 +664,15 @@
 
 // /* Font Families ----------------------------- */
 
-// .entry-content p,
-// .entry-content ol,
-// .entry-content ul,
-// .entry-content dl,
-// .entry-content dt {
-// 	font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
-// 	letter-spacing: normal;
-// }
+.entry-content p,
+.entry-content ol,
+.entry-content ul,
+.entry-content dl,
+.entry-content dt {
+    font-family: inherit!important;
+	// font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+	// letter-spacing: normal;
+}
 
 // .entry-content cite,
 // .entry-content figcaption,
