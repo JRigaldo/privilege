@@ -33,24 +33,56 @@ Inter variable font. Usage:
 }
 ---------------------------------------------- */
 
-@font-face {
-	font-family: "Inter var";
-	font-weight: 100 900; /* stylelint-disable-line font-weight-notation */
-	font-style: normal;
-	font-display: swap;
-	src: url(./assets/fonts/inter/Inter-upright-var.woff2) format("woff2");
-}
+// @font-face {
+// 	font-family: "Inter var";
+// 	font-weight: 100 900; /* stylelint-disable-line font-weight-notation */
+// 	font-style: normal;
+// 	font-display: swap;
+// 	src: url(./assets/fonts/inter/Inter-upright-var.woff2) format("woff2");
+// }
 
-@font-face {
-	font-family: "Inter var";
-	font-weight: 100 900; /* stylelint-disable-line font-weight-notation */
-	font-style: italic;
-	font-display: swap;
-	src: url(./assets/fonts/inter/Inter-italic-var.woff2) format("woff2");
-}
+// @font-face {
+// 	font-family: "Inter var";
+// 	font-weight: 100 900; /* stylelint-disable-line font-weight-notation */
+// 	font-style: italic;
+// 	font-display: swap;
+// 	src: url(./assets/fonts/inter/Inter-italic-var.woff2) format("woff2");
+// }
 
-// @import './style';
 
+/******    BOOTSTRAP IMPORTED    ******/
+// // Boostrap library
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+// // Boostrap Grid
+@import "bootstrap/mixins/text-emphasis";
+@import "bootstrap/mixins/breakpoints";
+@import "bootstrap/mixins/clearfix";
+@import "bootstrap/mixins/breakpoints";
+@import "bootstrap/mixins/hover";
+@import "bootstrap/mixins/image";
+@import "bootstrap/mixins/visibility";
+@import "bootstrap/mixins/text-hide";
+@import "bootstrap/mixins/text-truncate";
+@import "bootstrap/mixins/grid-framework";
+@import "bootstrap/mixins/grid";
+
+@import "bootstrap/custom";
+
+@import "bootstrap/utilities/clearfix";
+@import "bootstrap/utilities/visibility";
+
+@import "bootstrap/grid";
+
+// // utilities
+@import "bootstrap/utilities/flex";
+
+
+/******    All wordpress scss files is customized if it is uncomment    ******/
+/******    WORDPRESS LIBRARY     ******/
+
+/*** LIBS ***/
 @import 'libs/vars';
 // @import 'libs/functions';
 // @import 'libs/mixins';
@@ -58,14 +90,7 @@ Inter variable font. Usage:
 // @import 'libs/blocks';
 // @import 'libs/media-queries';
 
-// // Boostrap Grid
-
-@import "../../node_modules/bootstrap-grid-only-css/scss/functions";
-@import "../../node_modules/bootstrap-grid-only-css/scss/variables";
-
-
-
-// Base.
+/*** BASE ***/
 // @import 'base/access';
 @import 'base/reset';
 @import 'base/page';
@@ -73,8 +98,7 @@ Inter variable font. Usage:
 @import 'base/helpers';
 // @import 'base/opacity';
 
-// // Component.
-
+/*** COMPONENTS ***/
 // @import 'components/row';
 // @import 'components/box';
 @import 'components/button';
@@ -91,8 +115,7 @@ Inter variable font. Usage:
 // @import 'components/widgets';
 // @import 'components/comments';
 
-// // // Layout.
-
+/*** LAYOUT ***/
 // @import 'layout/wrapper';
 // @import 'layout/intro';
 @import 'layout/header';
@@ -101,28 +124,6 @@ Inter variable font. Usage:
 @import 'layout/footer';
 // @import 'layout/navPanel';
 // @import 'layout/author';
-
-
-// // Boostrap Grid
-
-@import "../../node_modules/bootstrap-grid-only-css/scss/mixins/text-emphasis";
-@import "../../node_modules/bootstrap-grid-only-css/scss/mixins/breakpoints";
-@import "../../node_modules/bootstrap-grid-only-css/scss/mixins/clearfix";
-@import "../../node_modules/bootstrap-grid-only-css/scss/mixins/breakpoints";
-@import "../../node_modules/bootstrap-grid-only-css/scss/mixins/hover";
-@import "../../node_modules/bootstrap-grid-only-css/scss/mixins/image";
-@import "../../node_modules/bootstrap-grid-only-css/scss/mixins/visibility";
-@import "../../node_modules/bootstrap-grid-only-css/scss/mixins/text-hide";
-@import "../../node_modules/bootstrap-grid-only-css/scss/mixins/text-truncate";
-@import "../../node_modules/bootstrap-grid-only-css/scss/mixins/grid-framework";
-@import "../../node_modules/bootstrap-grid-only-css/scss/mixins/grid";
-
-@import "../../node_modules/bootstrap-grid-only-css/scss/custom";
-
-@import "../../node_modules/bootstrap-grid-only-css/scss/utilities/clearfix";
-@import "../../node_modules/bootstrap-grid-only-css/scss/utilities/visibility";
-
-@import "../../node_modules/bootstrap-grid-only-css/scss/grid";
 
 // Create .img-fluid CSS class
 .img-fluid { @include img-fluid(); }
