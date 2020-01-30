@@ -1,3 +1,102 @@
+.banner-image{
+	img{
+		width: 100%;
+	}
+}
+
+.template-image {
+	position: relative;
+	figcaption.overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		padding: 2%;
+		margin: 0;
+		background-color: rgba($gray-lighter, 0.6);
+		color: $gray-base;
+		font-weight: 300;
+		line-height: 1.5em;
+		// font-style: 1em;
+	}
+}
+
+
+
+// figure.block-pills {
+// 	cursor: pointer;
+// 	position: relative;
+// 	display: block;
+	
+//     border-bottom-left-radius: 8px;
+// 	border-bottom-right-radius: 8px;
+		
+// 	width: 100%;
+// 	height: auto;
+
+// 	margin: 15px 0;
+
+// 	-webkit-box-shadow: 6px 11px 23px 0px rgba(117,117,117,0.65);
+// 	-moz-box-shadow: 6px 11px 23px 0px rgba(117,117,117,0.65);
+// 	box-shadow: 6px 11px 23px 0px rgba(117,117,117,0.65);
+
+// 	img{
+// 		width: auto;
+// 	}
+
+// 	figcaption{
+// 		position: absolute;
+// 		top: 0;
+// 		left: 0;
+// 		bottom: 0;
+// 		left: 0;
+// 		width: 100%;
+// 		height: 100%;
+// 		margin: 0;
+
+// 		display: flex;
+// 		flex-direction: column;
+// 		justify-content: flex-end;
+// 		align-content: flex-end;
+
+// 		border-radius: 
+
+// 		h4, p{
+// 			color: $white;
+// 			margin-left: 5%;
+// 			margin-top: 0;
+// 			margin-bottom: 1%;
+// 		}
+// 	}
+// 	&:before{
+// 		position: absolute;
+// 		content: '';
+// 		top: 0;right: 0;bottom: 0;left: 0;
+// 		background-color: $dark;;
+// 		// opacity: 0.3;
+// 		background: linear-gradient(0deg, rgba(27,0,0,1) 0%, rgba(61,38,34,1) 35%, rgba(255,255,255,0) 100%);
+// 		border-bottom-left-radius: 8px;
+// 		border-bottom-right-radius: 8px;
+// 	}
+// 	&:hover{
+// 		-webkit-box-shadow: 6px 11px 23px 10px rgba(117,117,117,0.65);
+// 		-moz-box-shadow: 6px 11px 23px 10px rgba(117,117,117,0.65);
+// 		box-shadow: 6px 11px 23px 10px rgba(117,117,117,0.65);
+// 	}
+// }
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 100%;
+  }
+  
+  .card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  
+
 // /* GALLERIES */
 
 // .gallery {
@@ -97,12 +196,6 @@ figure {
 
 // /* Featured Media ---------------------------- */
 
-.banner-image{
-	img{
-		width: 100%;
-	}
-}
-
 // .featured-media {
 // 	margin-top: 5rem;
 // 	position: relative;
@@ -138,97 +231,6 @@ figure {
 // 	text-align: center;
 // 	width: calc(100% - 5rem);
 // }
-
-.template-image {
-	position: relative;
-	figcaption.overlay {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		padding: 2%;
-		margin: 0;
-		background-color: rgba($gray-lighter, 0.6);
-		color: $gray-base;
-		font-weight: 300;
-		line-height: 1.5em;
-		// font-style: 1em;
-	}
-}
-
-
-
-// figure.block-pills {
-// 	cursor: pointer;
-// 	position: relative;
-// 	display: block;
-	
-//     border-bottom-left-radius: 8px;
-// 	border-bottom-right-radius: 8px;
-		
-// 	width: 100%;
-// 	height: auto;
-
-// 	margin: 15px 0;
-
-// 	-webkit-box-shadow: 6px 11px 23px 0px rgba(117,117,117,0.65);
-// 	-moz-box-shadow: 6px 11px 23px 0px rgba(117,117,117,0.65);
-// 	box-shadow: 6px 11px 23px 0px rgba(117,117,117,0.65);
-
-// 	img{
-// 		width: auto;
-// 	}
-
-// 	figcaption{
-// 		position: absolute;
-// 		top: 0;
-// 		left: 0;
-// 		bottom: 0;
-// 		left: 0;
-// 		width: 100%;
-// 		height: 100%;
-// 		margin: 0;
-
-// 		display: flex;
-// 		flex-direction: column;
-// 		justify-content: flex-end;
-// 		align-content: flex-end;
-
-// 		border-radius: 
-
-// 		h4, p{
-// 			color: $white;
-// 			margin-left: 5%;
-// 			margin-top: 0;
-// 			margin-bottom: 1%;
-// 		}
-// 	}
-// 	&:before{
-// 		position: absolute;
-// 		content: '';
-// 		top: 0;right: 0;bottom: 0;left: 0;
-// 		background-color: $dark;;
-// 		// opacity: 0.3;
-// 		background: linear-gradient(0deg, rgba(27,0,0,1) 0%, rgba(61,38,34,1) 35%, rgba(255,255,255,0) 100%);
-// 		border-bottom-left-radius: 8px;
-// 		border-bottom-right-radius: 8px;
-// 	}
-// 	&:hover{
-// 		-webkit-box-shadow: 6px 11px 23px 10px rgba(117,117,117,0.65);
-// 		-moz-box-shadow: 6px 11px 23px 10px rgba(117,117,117,0.65);
-// 		box-shadow: 6px 11px 23px 10px rgba(117,117,117,0.65);
-// 	}
-// }
-
-.card {
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	transition: 0.3s;
-	width: 100%;
-  }
-  
-  .card:hover {
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
   
 //   .container {
 // 	padding: 2px 16px;

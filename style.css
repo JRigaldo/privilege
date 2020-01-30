@@ -1384,42 +1384,11 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: inherit !important; }
 
 /*** BASE ***/
-* {
-  outline: none;
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Safari */
-  -khtml-user-select: none;
-  /* Konqueror HTML */
-  -moz-user-select: none;
-  /* Old versions of Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
-  user-select: none;
-  /* Non-prefixed version, currently
-     supported by Chrome, Opera and Firefox */ }
-
 .block-link a {
   cursor: pointer; }
 
 a {
   text-decoration: none; }
-
-.homepage {
-  background-color: #FFFFFF !important; }
-
-.homepage .card-pack {
-  margin: 0;
-  position: relative;
-  padding-bottom: 2.5em; }
-  .homepage .card-pack h5 {
-    font-size: 1em;
-    margin: 1rem 0 0.5rem; }
-  .homepage .card-pack p {
-    font-weight: 400;
-    font-size: 0.85em;
-    color: #f4f4f4; }
 
 h1,
 .heading-size-1 {
@@ -1432,7 +1401,7 @@ h3.heading-size-3 {
 
 .list-block h4.heading-size-4 {
   font-size: 0.9em;
-  color: #f4f4f4;
+  color: #9a9a9a;
   font-weight: 500;
   text-align: left;
   margin: 0;
@@ -1493,8 +1462,16 @@ button.card-pack-toggle {
     margin-right: 0.8em;
     text-decoration: none; }
 
-figure {
-  position: relative; }
+.card-pack {
+  margin: 0;
+  position: relative;
+  padding-bottom: 2.5em; }
+  .card-pack h5 {
+    font-size: 1em;
+    margin: 1rem 0 0.5rem; }
+  .card-pack p {
+    font-weight: 400;
+    font-size: 0.85em; }
 
 .banner-image img {
   width: 100%; }
@@ -1521,8 +1498,11 @@ figure {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
 
+figure {
+  position: relative; }
+
 .toggle-inner .toggle-text {
-  color: #555555 !important;
+  color: #9a9a9a !important;
   text-decoration: none !important; }
   .toggle-inner .toggle-text:focus, .toggle-inner .toggle-text:hover {
     text-decoration: none !important; }
@@ -1549,17 +1529,22 @@ figure {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  padding: 10px 0;
+  align-items: center;
+  padding-bottom: 0.8em;
+  padding-top: 0.8em;
+  border-top: 1px solid #f4f4f4;
   border-bottom: 1px solid #f4f4f4; }
   .contact-admin .profile-text {
     position: relative;
-    margin-left: 6px;
-    color: #f4f4f4;
-    top: 4px;
-    font-size: 0.8em; }
+    margin-left: 0.8em;
+    color: #9a9a9a;
+    font-size: 0.85em; }
 
-.profile-avatar img.avatar {
-  border-radius: 50% !important; }
+.profile-avatar img {
+  display: block;
+  width: 50px;
+  height: auto;
+  border-radius: 50%; }
 
 /* ------------------------------ homepage listn */
 .list.is-admin .list-content,
@@ -1570,18 +1555,37 @@ figure {
   justify-content: flex-start;
   align-items: flex-start;
   margin-top: 10px; }
+  .list.is-admin .list-content .list-icon,
+  .list-content .list-icon {
+    width: 65px;
+    height: auto; }
   .list.is-admin .list-content .list-icon svg.svg-icon,
   .list-content .list-icon svg.svg-icon {
-    width: 25px;
-    fill: #f4f4f4; }
+    width: 60px;
+    fill: #9a9a9a; }
   .list.is-admin .list-content h4,
   .list-content h4 {
     font-size: 0.9em;
-    color: #f4f4f4;
+    color: #9a9a9a;
     font-weight: 500;
     text-align: left;
     margin: 0;
     margin-left: 20px; }
+
+.list-block {
+  color: #9a9a9a;
+  margin-top: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+  .list-block .list-block-container {
+    background-color: #f4f4f4;
+    margin: 1em;
+    border-radius: 3px; }
+  .list-block h3 {
+    margin-top: 0.5em;
+    font-weight: 300; }
+  .list-block p {
+    font-size: 1.5rem; }
 
 .inter-section {
   background-color: #DE9C12;
@@ -1592,20 +1596,10 @@ figure {
   font-weight: 300;
   letter-spacing: 2px; }
 
-.list-block {
-  color: #555555;
-  margin-top: 1em;
-  padding-top: 1em;
-  padding-bottom: 1em; }
-  .list-block .list-block-container {
-    background-color: #f4f4f4;
-    padding: 1em;
-    border-radius: 3px; }
-  .list-block h3 {
-    margin-top: 0.5em;
-    font-weight: 300; }
-  .list-block p {
-    font-size: 1.5rem; }
+div.acf-block-split-separator hr {
+  border-bottom: 1px solid #9a9a9a;
+  margin: 2em 0;
+  display: block; }
 
 /*** LAYOUT ***/
 .header-inner {

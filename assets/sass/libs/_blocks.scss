@@ -463,21 +463,13 @@
 // /* STYLE: DOTS */
 
 // .wp-block-separator.is-style-dots::before {
-// 	background: none;
-// 	color: inherit;
-// 	font-size: 3.2rem;
-// 	font-weight: 700;
-// 	height: auto;
-// 	letter-spacing: 1em;
-// 	padding-left: 1em;
-// 	position: static;
-// 	transform: none;
-// 	width: auto;
+// 	display: none!important;
 // }
 
 // .wp-block-separator.is-style-dots::after {
-// 	content: none;
+// 	display: none!important;
 // }
+
 
 
 // /* Block: Search ----------------------------- */

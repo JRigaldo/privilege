@@ -85,16 +85,13 @@ Inter variable font. Usage:
 
 /*** LIBS ***/
 @import 'libs/vars';
-// @import 'libs/functions';
-// @import 'libs/mixins';
-// @import 'libs/vendor';
 @import 'libs/blocks';
-// @import 'libs/media-queries';
+@import 'libs/media-queries';
 
 /*** BASE ***/
 // @import 'base/access';
 @import 'base/reset';
-@import 'base/page';
+// @import 'base/page';
 @import 'base/typography';
 @import 'base/helpers';
 // @import 'base/opacity';
@@ -103,6 +100,7 @@ Inter variable font. Usage:
 // @import 'components/row';
 // @import 'components/box';
 @import 'components/button';
+@import 'components/card';
 // @import 'components/form';
 // @import 'components/search';
 // @import 'components/modal';
@@ -110,7 +108,8 @@ Inter variable font. Usage:
 @import 'components/actions';
 @import 'components/icons';
 @import 'components/list';
-@import 'components/section';
+@import 'components/inter-section';
+// @import 'components/slider';
 // @import 'components/table';
 // @import 'components/pagination';
 // @import 'components/widgets';

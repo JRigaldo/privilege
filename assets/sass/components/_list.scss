@@ -9,17 +9,40 @@
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 10px;
+    .list-icon{
+        width: 65px;
+        height: auto;
+    }
     .list-icon svg.svg-icon {
-        width: 25px;
-        fill: $gray-light;
+        width: 60px;
+        fill: $gray;
     }
     h4{
         font-size: 0.9em;
-        color: $gray-light;
+        color: $gray;
         font-weight: 500;
         text-align: left;
         margin: 0;
         margin-left: 20px;
+    }
+}
+
+.list-block{
+    color: $gray;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    .list-block-container{
+        background-color: $gray-light;
+        margin: 1em;
+        border-radius: 3px;
+    }
+    h3{
+        margin-top: 0.5em;
+        font-weight: 300;
+    }
+    p{
+        font-size: 1.5rem;
     }
 }
 
